@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
-  s.name        = 'ducksboard'
-  s.version     = '0.1.3'
-  s.summary     = "API wrapper for ducksboard.com dashboard"
+  s.name        = 'atk-ducksboard'
+  s.version     = '0.1.4'
+  s.summary     = "API wrapper for ducksboard.com dashboard with pull support"
   s.description = "Ruby API wrapper for ducksboard realtime dashboard using HTTParty"
-  s.authors     = ["Joseph Hsu"]
+  s.authors     = ["Joseph Hsu", "America's Test Kitchen"]
   s.email       = 'jhsu.x1@gmail.com'
   s.files       = `git ls-files`.split("\n")
-  s.homepage    = 'http://github.com/jhsu/ducksboard'
+  s.homepage    = 'http://github.com/Americastestkitchen/ducksboard'
   s.license     = 'MIT'
   s.required_ruby_version = '>= 1.8.7'
 
